@@ -1,0 +1,111 @@
+body
+{
+    margin: 0%;
+    background-color: #F4DFD0;
+    height: 100vh;
+}
+
+.Title-background-div
+{
+    background-color: #3D0000;
+    height:25%;
+    max-height: 25%;
+
+}
+
+.Title-text-div
+{
+    font-size: 700%;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    position: relative;
+    top: 10%;
+}
+
+.BMI-main-div
+{
+  
+    position: relative;  
+    background-color: transparent;
+    max-height: 52%;
+    
+    top: 20%;
+    left: 32%;
+    width:35vw;
+    height:48%;
+    border:1vw solid #3D0000;
+
+}
+
+.BMI-inner-div
+{
+    position: relative;
+    background-color: #3D0000;
+    height: 100%;
+    color:white;
+    top: 0.5%;
+    height: 99.5%;
+    width:99.8%;
+    left: 0.2%;
+
+}
+
+.BMI-button
+{
+    border-radius: 5%;
+    text-align: center;
+    width: 7vw;
+    height: 2vw;
+    position: absolute;
+    left: 42%;
+}
+
+.BMI-result-div
+{
+    position:relative;
+    background-color: transparent;
+    left: 20%;
+}
+
+.BMI-category-div
+{
+    position: relative;
+    left: 3.7%;
+}
+
+.BMI-category-box
+{
+    position: relative;
+    width: 40%;
+    left: 0.2%;
+}
+
+.test
+{
+    position: relative;
+    border:1vw solid #3D0000;
+    top: 30%;
+    height: 46%;
+    width: 35vw;
+    left: 32%;
+}
+
+.BMI-category-info
+{
+    position:relative;
+    top: 0.5%;
+    background-color: #3D0000;
+    color:white;
+    height: 99%;
+    width: 99.5%;
+    left: 0.3%; 
+    
+}
+
+
+ul li
+{
+    font-size: larger;
+    padding-bottom: 1%;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="layout.css">
+        <script src="calculate.js"></script>
+    </head>
+
+    <body>
+        <!--This is the div controlling the title-->
+        <div class="Title-background-div">
+            <div class="Title-text-div">
+                <b><i>Body Mass Index Calculator</i></b>
+            </div>
+        </div>
+
+        <!--This is the div controlling the BMI Calculator box-->
+
+        <div class="BMI-main-div">
+
+            <div class="BMI-inner-div">
+                <center><b><font size="7">Enter Your Data Below</font></b></center>
+                <br><font size = "6">Height: </font> <input type="text" class = "BMI-feet" placeholder="Feet" style="color: grey">&nbsp;&nbsp;&nbsp;<input type="text" class="BMI-inches" placeholder="Inches" style="color: grey">
+                <br><br><font size = "6">Weight: </font><input type="text" class="Weight-inputbox" placeholder="lbs" style="color: grey">
+                <br><br><input type="button"  class="BMI-button" value="Calculate "  onclick="getBMI()">
+                <br>
+                <br>
+                <br>
+                <div class="BMI-result-div">Your BMI: <input type="text" class = "BMI-result" placeholder="BMI: " readonly="True"> <br></div>
+                <div class = "BMI-category-div">Your BMI Category is: <input type="text" class = "BMI-category-box" placeholder="Category: " readonly="True"></div>
+               
+            </div>
+
+        </div>
+
+        <div class = "test">
+            <div class="BMI-category-info">
+                        
+                <center><b><font size="7">BMI Classifications</font></b></center>
+                <ul id="categories">
+                    <li id="severeThin">Severe Thinness: A BMI Less than 16</li>
+                    <li id="moderateThin">Moderate Thinness: A BMI between (16-17)</li>
+                    <li id="mildThin">Mild Thinness: A BMI between (17 - 18.5)</li>
+                    <li id="normal">Normal: A BMI between (18.5-25) </li>
+                    <li id="overweight">Overweight: A BMI between (25 - 30)</li>
+                    <li id="obese1">Obese Class I: A BMI between (30-35)</li>
+                    <li id="obese2">Obese Class II: A BMI between (35-40)</li>
+                    <li id="jesus">GO TO THE EMERGENCY ROOM (BMI > 40)</li>
+                </ul>
+            </div>
+        </div>
+        
+    </body>
+</html>
